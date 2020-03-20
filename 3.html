@@ -1,0 +1,58 @@
+<DOCTYPE html>
+
+<html lang=en>
+    
+    <head>
+    meta charset = "utf-8" />
+    <title> Layout 3</title>
+        
+        <stlye>
+
+div {
+        outline: 1px solid black;
+               }
+                
+           #container {
+               margin: auto;
+               max-width: 800px;
+           }
+           
+           #blue {
+               background-color: blue;
+               height: 200px;
+}
+
+#red {
+display: grid;
+background-color: red;
+grid-template-columns: 50% 50%;
+height: 400px;
+padding: 20px;
+}
+
+.yellow {
+               background-color: yellow;
+               margin: 20px;
+           }
+
+ #green {
+               background-color: lime;
+               grid-column: 1/3;
+               height: 200px;
+            
+}
+            
+        </stlye>
+    </head>
+<body>
+ <div id="container">
+           <div id="blue"></div>
+           <div id="red">
+             <div class="yellow"></div>
+             <div class="yellow"></div>
+           </div>
+           <div id="green"></div>
+       </div>
+    
+    </body>
+    </html>
